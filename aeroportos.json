@@ -1,0 +1,44 @@
+[
+  {
+    "sigla": 0,
+    "nome": "Benson Ferrell",
+    "endereco": {
+      "cep": 27410930,
+      "localidade": "Duryea",
+      "logradouro": "Dearborn Court",
+      "pais": "Tajikistan",
+      "bairro": "Galloway Silva",
+      "numero": 47,
+      "uf": "PR",
+      "complemento": "-"
+    }
+  },
+  {
+    "sigla": 1,
+    "nome": "Donovan Duke",
+    "endereco": {
+      "cep": 97855752,
+      "localidade": "Elliott",
+      "logradouro": "Lombardy Street",
+      "pais": "Sierra Leone",
+      "bairro": "Augusta Webster",
+      "numero": 40,
+      "uf": "MG",
+      "complemento": "-"
+    }
+  },
+  {
+    "sigla": 2,
+    "nome": "Forbes Mccall",
+    "endereco": {
+      "cep": 61992845,
+      "localidade": "Kennedyville",
+      "logradouro": "Navy Walk",
+      "pais": "Svalbard and Jan Mayen Islands",
+      "bairro": "Marta Long",
+      "numero": 13,
+      "uf": "AC",
+      "complemento": "-"
+    }
+  }
+]

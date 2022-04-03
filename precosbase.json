@@ -1,0 +1,62 @@
+[
+  {
+    origem: {
+      "sigla": "0"
+  },
+    destino: {
+      "sigla": "1"
+  },
+    valor: 600,
+    datainclusao: "2020-01-03T09:30:04"
+  },
+  {
+    origem: {
+      "sigla": "0"
+  },
+    destino: {
+      "sigla": "2"
+  },
+    valor: 800,
+    datainclusao: "2020-01-03T00:20:04"
+  },
+  {
+    origem: {
+      "sigla": "2"
+  },
+    destino: {
+      "sigla": "0"
+  },
+    valor: 500,
+    datainclusao: "2020-01-03T05:20:04"
+  },
+  {
+    origem: {
+      "sigla": "2"
+  },
+    destino: {
+      "sigla": "1"
+  },
+    valor: 750,
+    datainclusao: "2020-01-03T04:20:04"
+  },
+  {
+    origem: {
+      "sigla": "1"
+  },
+    destino: {
+      "sigla": "0"
+  },
+    valor: 480,
+    datainclusao: "2020-01-03T00:20:04"
+  },
+  {
+    origem: {
+      "sigla": "1"
+  },
+    destino: {
+      "sigla": "2"
+  },
+    valor: 540,
+    datainclusao: "2020-01-03T02:20:04"
+  }
+]

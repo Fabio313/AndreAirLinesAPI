@@ -1,0 +1,54 @@
+[
+  {
+    "origem":{
+      "sigla": 0
+    },
+    "destino":{
+      "sigla": 1
+    },
+    "aeronave":{
+      "codigo": 1
+    },
+    "horaembarque": "2022-04-13T07:00:00",
+    "horadesembarque": "2022-04-13T19:30:00"
+  },
+  {
+    "origem":{
+      "sigla": 2
+    },
+    "destino":{
+      "sigla": 0
+    },
+    "aeronave":{
+      "codigo": 4
+    },
+    "horaembarque": "2022-05-02T09:00:00",
+    "horadesembarque": "2022-04-13T15:30:00"
+  },
+  {
+    "origem":{
+      "sigla": 1
+    },
+    "destino":{
+      "sigla": 2
+    },
+    "aeronave":{
+      "codigo": 22
+    },
+    "horaembarque": "2022-04-05T15:00:00",
+    "horadesembarque": "2022-04-06T05:00:00"
+  },
+  {
+    "origem":{
+      "sigla": 0
+    },
+    "destino":{
+      "sigla": 2
+    },
+    "aeronave":{
+      "codigo": 12
+    },
+    "horaembarque": "2022-04-04T16:00:00",
+    "horadesembarque": "2022-04-04T19:30:00"
+  }
+]

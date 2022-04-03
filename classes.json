@@ -1,0 +1,14 @@
+[
+  {
+    "descricao": "Primeira Classe",
+    "valor": 1500,
+  },
+  {
+    "descricao": "Segunda Classe",
+    "valor": 750
+  },
+  {
+    "descricao": "Classe Economica",
+    "valor": 200
+  }
+]

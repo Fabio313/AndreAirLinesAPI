@@ -1,0 +1,122 @@
+[
+  {
+    "voo": {
+      "id": 1
+    },
+    "passageiro": {
+       "cpf": "22803806677"
+    },
+    "classe": {
+      "id": 1
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 1
+    },
+    "passageiro": {
+       "cpf": "60629114560"
+    },
+    "classe": {
+      "id": 2
+    },
+    "datacadastro": "2022-04-03T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 2
+    },
+    "passageiro": {
+       "cpf": "61771125087"
+    },
+    "classe": {
+      "id": 3
+    },
+    "datacadastro": "2022-04-01T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 3
+    },
+    "passageiro": {
+       "cpf": "12369349345"
+    },
+    "classe": {
+      "id": 1
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 1
+    },
+    "passageiro": {
+       "cpf": "61837579235"
+    },
+    "classe": {
+      "id": 2
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 2
+    },
+    "passageiro": {
+       "cpf": "12070215473"
+    },
+    "classe": {
+      "id": 2
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 3
+    },
+    "passageiro": {
+       "cpf": "36627661300"
+    },
+    "classe": {
+      "id": 1
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 1
+    },
+    "passageiro": {
+       "cpf": "13121558649"
+    },
+    "classe": {
+      "id": 1
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 2
+    },
+    "passageiro": {
+       "cpf": "78819827129"
+    },
+    "classe": {
+      "id": 2
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  },
+  {
+    "voo": {
+      "id": 3
+    },
+    "passageiro": {
+       "cpf": "38106194862"
+    },
+    "classe": {
+      "id": 2
+    },
+    "datacadastro": "2022-04-04T16:00:00"
+  }
+]
