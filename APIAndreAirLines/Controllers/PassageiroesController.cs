@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APIAndreAirLines.Data;
 using APIAndreAirLines.Model;
+using AirLineAPI.Service;
 
 namespace APIAndreAirLines.Controllers
 {
@@ -78,6 +79,14 @@ namespace APIAndreAirLines.Controllers
         [HttpPost]
         public async Task<ActionResult<Passageiro>> PostPassageiro(Passageiro passageiro)
         {
+            var end = await VerificaCep.CEPVerify(passageiro.Endereco.Cep);
+            if (end != null)
+            {
+                int num = passageiro.Endereco.Numero;
+                passageiro.Endereco = new Endereco(end.Localidade, end.Logradouro, end.Bairro, end.Uf, end.Complemento, end.Cep);
+                passageiro.Endereco.Numero = num;
+            }
+
             _context.Passageiro.Add(passageiro);
 
             try
