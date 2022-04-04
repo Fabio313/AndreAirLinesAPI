@@ -88,6 +88,7 @@ namespace APIAndreAirLines.Controllers
             if (aeronave != null)
                 voo.Aeronave = aeronave;
 
+
             var origem = await _context.Aeroporto.FindAsync(voo.Origem.Sigla);
             if (origem != null)
                 voo.Origem = origem;

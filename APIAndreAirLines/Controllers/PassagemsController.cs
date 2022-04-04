@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APIAndreAirLines.Data;
 using APIAndreAirLines.Model;
+using AirLineAPI.Service;
 
 namespace APIAndreAirLines.Controllers
 {
@@ -105,6 +106,16 @@ namespace APIAndreAirLines.Controllers
             var passageiro = await _context.Passageiro.FindAsync(passagem.Passageiro.Cpf);
             if (passageiro != null)
                 passagem.Passageiro = passageiro;
+            else
+            {
+                var end = await VerificaCep.CEPVerify(passageiro.Endereco.Cep);
+                if (end != null)
+                {
+                    int num = passageiro.Endereco.Numero;
+                    passageiro.Endereco = new Endereco(end.Localidade, end.Logradouro, end.Bairro, end.Uf, end.Complemento, end.Cep);
+                    passageiro.Endereco.Numero = num;
+                }
+            }
 
             var precobase = await _context.PrecoBase.Where(x => x.Origem.Sigla == passagem.Voo.Origem.Sigla && x.Destino.Sigla == passagem.Voo.Destino.Sigla).FirstOrDefaultAsync();
             if (precobase != null)
